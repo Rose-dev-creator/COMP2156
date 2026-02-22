@@ -12,6 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>COMP2156 - DevOps Lab 6 Live</h1>
       <h1>Studen ID: 101587881</h1>
       <h1>Studen ID: Roseanne Revzen</h1>
       <h1>Student Information System</h1>
