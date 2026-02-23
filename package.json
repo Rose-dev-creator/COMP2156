@@ -1,6 +1,7 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
+  "homepage": "https://Rose-dev-creator.github.io/COMP2156",
   "description": "Lab 05 - CI/CD Pipeline with React",
   "main": "index.js",
   "type": "module",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error:no test specified\"",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
   },
   "eslintConfig": {
     "extends": [
